@@ -15,7 +15,7 @@ const CATEGORIES = [
 ];
 
 const CAT_LABEL = Object.fromEntries(CATEGORIES.map(c => [c.id, c.label]));
-const ADMIN_PASSCODE = "srpd2026";
+const ADMIN_PASSCODE = "SRPD@Bamiyal";
 
 const SEED_PRODUCTS = [
   { id: "p1", name: "200 Page Ruled Notebook", price: 45, category: "notebooks", inStock: true, image: "📓" },
