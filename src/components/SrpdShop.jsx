@@ -199,7 +199,7 @@ export default function SrpdShop() {
       <header className="shrink-0 bg-amber-400 text-slate-900 px-4 pt-3 pb-3 shadow-sm z-30">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-white text-amber-600 font-extrabold flex items-center justify-center text-sm">SR</div>
+            <img src="/logo.png" alt="SRPD Shop" className="w-9 h-9 rounded-lg object-cover" />
             <div className="font-extrabold text-lg tracking-tight">SRPD Shop</div>
           </div>
           <button onClick={() => setAdminOpen(true)} aria-label="Admin" className="w-9 h-9 rounded-full bg-amber-300 flex items-center justify-center">
